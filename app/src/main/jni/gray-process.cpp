@@ -6,7 +6,7 @@ extern "C" {
 using namespace cv;
 using namespace std;
 
-JNIEXPORT jintArray JNICALL Java_net_raind_opencv3jni_MainActivity_grayProc(JNIEnv *env, jclass obj, jintArray buf, jint w, jint h){
+JNIEXPORT jintArray JNICALL Java_net_raind_opencv3jni_MainActivity_grayProc(JNIEnv *env, jclass obj, jintArray buf, jint w, jint h,jint u){
     jboolean ptfalse = false;
     jint* srcBuf = env->GetIntArrayElements(buf, &ptfalse);
     if(srcBuf == NULL){
@@ -18,7 +18,7 @@ JNIEXPORT jintArray JNICALL Java_net_raind_opencv3jni_MainActivity_grayProc(JNIE
     Mat grayImage;
     cvtColor(srcImage, grayImage, COLOR_BGRA2GRAY);
 
-    threshold(grayImage, grayImage, 128, 255, 0);
+    threshold(grayImage, grayImage, u, 255, 0);
 
     cvtColor(grayImage, srcImage, COLOR_GRAY2BGRA);
 

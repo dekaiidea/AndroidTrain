@@ -1,5 +1,5 @@
-C:/Users/raind/AndroidStudioProjects/OpenCV3JNI/app/src/main/obj/local/armeabi-v7a/objs/gray-process/gray-process.o: \
- C:/Users/raind/AndroidStudioProjects/OpenCV3JNI/app/src/main/jni/gray-process.cpp \
+C:/Users/raind/AndroidStudioProjects/AndroidTrain/app/src/main/obj/local/armeabi-v7a/objs/gray-process/gray-process.o: \
+ C:/Users/raind/AndroidStudioProjects/AndroidTrain/app/src/main/jni/gray-process.cpp \
  C://Work//OpenCV-android-sdk//sdk//native//jni//include/opencv2/opencv.hpp \
  C://Work//OpenCV-android-sdk//sdk//native//jni//include/opencv2/core.hpp \
  C://Work//OpenCV-android-sdk//sdk//native//jni//include/opencv2/core/cvdef.h \

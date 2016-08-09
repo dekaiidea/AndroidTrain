@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/OpenCV3JNI.iml" filepath="$PROJECT_DIR$/OpenCV3JNI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidTrain.iml" filepath="$PROJECT_DIR$/AndroidTrain.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
