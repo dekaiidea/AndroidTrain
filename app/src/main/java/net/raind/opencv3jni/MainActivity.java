@@ -1,5 +1,6 @@
 package net.raind.opencv3jni;
 
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.graphics.Bitmap;
@@ -10,6 +11,7 @@ import android.widget.EditText;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
+
 
 public class MainActivity extends AppCompatActivity implements OnClickListener {
 
@@ -37,6 +39,8 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         imageView.setImageBitmap(bmp);
         btnProc.setOnClickListener(this);
     }
+
+
 
     @Override
     public void onClick(View v) {
